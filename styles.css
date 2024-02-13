@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* Horizontal center */
+    justify-content: center;
+    /* Vertical center */
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#yes {
+    background-color: #04AA6D;
+
+}
+
+#yes:hover {
+    background-color: #46a049;
+    cursor: pointer;
+}
+
+#no {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#no:hover {
+    background-color: #da190b;
+}
